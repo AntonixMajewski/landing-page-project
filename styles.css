@@ -5,7 +5,7 @@ header {
     margin: 16px;
     padding: 0px;
     gap: 32px;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
 }
 
 .right-links {
@@ -13,7 +13,8 @@ header {
     margin-left: auto;
     padding: 8px;
     display: flex;
-    gap: 32px
+    gap: 32px;
+    font-weight: bold;
 }
 
 body {
@@ -22,4 +23,31 @@ body {
     background-color: #1F2937;
     margin: 0 256px;
     color: white;
+}
+
+.upper-panel {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.secondary-text {
+    font-size: 18px;
+    text-align: justify;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 8px;
 }
