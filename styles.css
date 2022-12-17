@@ -5,11 +5,11 @@ header {
     margin: 16px;
     padding: 0px;
     gap: 32px;
+    margin-bottom: 128px;
 }
 
 .right-links {
     justify-content: flex-end;
-    color: white;
     margin-left: auto;
     padding: 8px;
     display: flex;
@@ -20,4 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    margin: 0 256px;
+    color: white;
 }
