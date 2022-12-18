@@ -5,7 +5,7 @@ header {
     margin: 16px;
     padding: 0px;
     gap: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 
 .right-links {
@@ -28,6 +28,7 @@ body {
 .upper-panel {
     display: flex;
     gap: 64px;
+    padding: 64px;
     justify-content: center;
     align-items: center;
 }
@@ -69,4 +70,62 @@ button {
     height: 256px;
     width: 256px;
     object-fit: cover;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+    margin: 64px 128px;
+}
+
+.quote-giver {
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 128px;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    margin: 0 -256px;
+    padding: 64px 256px !important;
+    color: #1F2937;
+}
+
+.middle-panel {
+    background-color: white;
+    margin: 0 -256px;
+    padding: 64px 256px !important;
+    color: #1F2937;
+}
+
+.cta-box {
+    
+
+    background-color: white;
+    margin: 0 -256px;
+    padding: 32px 256px !important;
+}
+
+.inside {
+    display: flex;
+    background-color: #3882F6;
+    margin: 64px;
+    padding: 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cta-box button {
+    border: #E5E7EB solid 2px;
+}
+
+footer {
+    padding: 32px;
+    text-align: center;
 }
